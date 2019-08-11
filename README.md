@@ -4,7 +4,7 @@ A simple blockchain which can be mined, retrieved or verified using a web interf
 
 - Hashlib is used for generating hashes with sha256.
 
-- Hash difficulty is 0000. See hash_operation_ok.
+- Hash difficulty is 0000..
 
 - This code runs on localhost on port 5000.
 
