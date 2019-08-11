@@ -1,5 +1,13 @@
 # Blockchain-BlockMiner
-Implementation of Practical Blockchain Mining,Proof of Work Consensus using Python and Flask.
+Implementation of Practical Blockchain Mining, using Python and Flask.
+A simple blockchain which can be mined, retrieved or verified using a web interface like a browser or Postman.
+
+- Hashlib is used for generating hashes with sha256.
+
+- Hash difficulty is 0000. See hash_operation_ok.
+
+- This code runs on localhost on port 5000.
+
 
 
  # Installation
@@ -29,6 +37,16 @@ sudo easy_install pip (Requires Admin privilege)
 ```sh
 pip install Flask==0.12.2
 ```
+
+# Endpoints
+# /mine_block
+Mines a block and return the result.
+
+# /get_chain
+Returns the entire chain.
+
+# /is_valid
+Checks if block hashes correct through all the chain.
 
 # Methods
 - To get all the blocks of the Blockchain
